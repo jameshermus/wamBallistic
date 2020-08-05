@@ -31,6 +31,7 @@ class ExampleSystem : public systems::System
    wamStiff(2,2) = 50;
    wamDamp = wamStiff * 0.1;
    std::cout<<wamDamp<<std::endl;
+     // just a line to show if overwirte works
 }
  virtual ~ExampleSystem()
  {
